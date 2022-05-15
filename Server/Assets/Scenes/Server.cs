@@ -30,6 +30,11 @@ public class Server : MonoBehaviour
         socket.BeginAccept(AcceptCallback, socket);
     }
     
+    private void OnDestroy()
+    {
+        socket.Close();
+    }
+
     private void AcceptCallback(IAsyncResult ar)
     {
         try {
@@ -70,10 +75,17 @@ public class Server : MonoBehaviour
                 Console.WriteLine("Socket Close");
                 return;
             }
-            string recvStr = System.Text.Encoding.Default.GetString(state.buff, 0, count);
-            Debug.Log("客户端发送数据：" + recvStr);
-            byte[] sendBytes = System.Text.Encoding.Default.GetBytes("服务器发送数据：" + recvStr);
-            handle.Send(sendBytes);
+            
+            
+            string recvStr = Encoding.Default.GetString(state.buff, 0, count);
+            Debug.Log($"{handle.RemoteEndPoint}: {recvStr}");
+            byte[] sendBytes = System.Text.Encoding.Default.GetBytes($"<color=#3c4ffe>{handle.RemoteEndPoint}</color>: {recvStr}");
+            
+            foreach (var client in clients.Values)
+            {
+                client.socket.Send(sendBytes);
+            }
+            
             handle.BeginReceive( state.buff, 0, 1024, 0, ReceiveCallback, state);
         }
         catch (SocketException ex)
@@ -82,3 +94,4 @@ public class Server : MonoBehaviour
         }
     }
 }
+
