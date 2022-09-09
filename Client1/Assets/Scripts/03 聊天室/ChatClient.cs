@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Net.Sockets;
 using System.Text;
 using UnityEngine;
@@ -38,16 +36,7 @@ public class ChatClient : MonoBehaviour
     {
         var client = ar.AsyncState as Socket;
         client.EndConnect(ar);
-        SendMsg("加入聊天");
-        client.BeginReceive( buffer, 0, 1024, 0, ReceiveCallback, client);
-    }
-
-    private void ReceiveCallback(IAsyncResult ar)
-    {
-        var client = ar.AsyncState as Socket;
-        int count = client.EndReceive(ar);
-        AddMsg(Encoding.UTF8.GetString(buffer, 0, count));
-        client.BeginReceive( buffer, 0, 1024, 0, ReceiveCallback, client);
+        SendMsg("客户端1 加入聊天");
     }
 
     private void Send()
@@ -67,18 +56,26 @@ public class ChatClient : MonoBehaviour
         client.EndSend(ar);
     }
 
-    private void AddMsg(string msg)
-    {
-        sb.Append($"{msg}\n");
-        isChange = true;
-    }
-
     private void Update()
     {
-        if (isChange)
+        if (socket == null || !socket.Connected)
         {
+            return;
+        }
+
+        if (socket.Poll(0, SelectMode.SelectRead))
+        {
+            byte[] readBuff = new byte[1024];
+            int count = socket.Receive(readBuff);
+            if(count == 0)
+            {
+                socket.Close();
+                socket = null;
+                return;
+            }
+            string recvStr = Encoding.Default.GetString(readBuff, 0, count);
+            sb.Append($"{recvStr}\n");
             text.text = sb.ToString();
-            isChange = false;
         }
     }
 }
