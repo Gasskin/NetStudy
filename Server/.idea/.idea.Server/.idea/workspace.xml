@@ -8,59 +8,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03b59717-9f1e-48d7-952f-d59648a5bdfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scenes/03 聊天室.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/Assets/Scenes/03 聊天室.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/03 聊天室/ChatClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/Assets/Scripts/03 聊天室/ChatClient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/.idea/.idea.Client2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/.idea/.idea.Client2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/.idea/.idea.Client2/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/.idea/.idea.Client2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2/Assets/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/Assets/Scenes/01 Echo.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2/Assets/Scenes/01 Echo.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/Assets/Scenes/03 聊天室.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2/Assets/Scenes/03 聊天室.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/Assets/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2/Assets/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/Assets/Scripts/03 聊天室/ChatClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2/Assets/Scripts/03 聊天室/ChatClient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client2/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Client2/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NetServerStudy/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NetServerStudy/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NetServerStudy/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NetServerStudy/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Server/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Server.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Server.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scenes/03 聊天室.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scenes/03 聊天室.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/Bot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/Bot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/NetManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/NetManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Server.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Server.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/ref/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/ref/Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Server.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +42,9 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Server.cs" />
       <option value="$PROJECT_DIR$/obj/Debug/net6.0/Server.GlobalUsings.g.cs" />
       <option value="$PROJECT_DIR$/ByteArray.cs" />
+      <option value="$PROJECT_DIR$/Server.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2ELPd5o5X1qsFifYLvbJ7SwKl99" />
@@ -126,6 +93,8 @@
       <workItem from="1662371977894" duration="36000" />
       <workItem from="1662372028409" duration="697000" />
       <workItem from="1662605262940" duration="8092000" />
+      <workItem from="1662711648358" duration="599000" />
+      <workItem from="1662719642754" duration="1065000" />
     </task>
     <servers />
   </component>
@@ -134,6 +103,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

@@ -11,7 +11,7 @@ namespace Server
         // IP地址
         private const string IP = "127.0.0.1";
         // 端口号
-        private const int HOST = 1234;
+        private const int HOST = 8888;
 
         // 服务器Socket
         private Socket server;
