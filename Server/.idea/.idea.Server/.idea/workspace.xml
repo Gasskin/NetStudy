@@ -8,9 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03b59717-9f1e-48d7-952f-d59648a5bdfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/ByteArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/ByteArray.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/NetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/NetManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Server/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +81,7 @@
       <workItem from="1662711648358" duration="599000" />
       <workItem from="1662719642754" duration="1065000" />
       <workItem from="1663065564440" duration="1602000" />
+      <workItem from="1663132577315" duration="724000" />
     </task>
     <servers />
   </component>
