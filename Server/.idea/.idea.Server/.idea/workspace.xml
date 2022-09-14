@@ -8,26 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03b59717-9f1e-48d7-952f-d59648a5bdfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scenes/03 聊天室.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scenes/03 聊天室.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/Bot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/Bot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/NetManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/NetManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/Player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/05 大乱斗/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/ByteArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/ByteArray.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/NetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/NetManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Server.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Server.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/ref/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/ref/Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Server.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +40,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -95,6 +81,7 @@
       <workItem from="1662605262940" duration="8092000" />
       <workItem from="1662711648358" duration="599000" />
       <workItem from="1662719642754" duration="1065000" />
+      <workItem from="1663065564440" duration="1602000" />
     </task>
     <servers />
   </component>

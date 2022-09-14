@@ -20,9 +20,9 @@ namespace Framework
         public byte[] Bytes { get; private set; }
 
         // 读写位置
-        public int ReadIndex { get; private set; }
+        public int ReadIndex { get; set; }
 
-        public int WriteIndex { get; private set; }
+        public int WriteIndex { get; set; }
 
         // 容量
         public int Capacity { get; private set; }
@@ -58,7 +58,7 @@ namespace Framework
         }
 
         // 重设尺寸
-        private void ReSize(int size)
+        public void ReSize(int size)
         {
             if (size < Length)
                 return;
@@ -102,7 +102,7 @@ namespace Framework
         }
 
         // 检查并移动数据
-        private void CheckAndMoveBytes()
+        public void CheckAndMoveBytes()
         {
             if (Length < 8)
             {
@@ -111,7 +111,7 @@ namespace Framework
         }
 
         // 移动数据
-        private void MoveBytes()
+        public void MoveBytes()
         {
             Array.Copy(Bytes, ReadIndex, Bytes, 0, Length);
             WriteIndex = Length;
