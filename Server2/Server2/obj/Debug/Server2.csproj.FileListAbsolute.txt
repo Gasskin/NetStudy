@@ -1,0 +1,7 @@
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\Server2.exe
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\Server2.pdb
+D:\__Project\NetStudy\Server2\Server2\obj\Debug\Server2.csproj.AssemblyReference.cache
+D:\__Project\NetStudy\Server2\Server2\obj\Debug\Server2.csproj.SuggestedBindingRedirects.cache
+D:\__Project\NetStudy\Server2\Server2\obj\Debug\Server2.csproj.CoreCompileInputs.cache
+D:\__Project\NetStudy\Server2\Server2\obj\Debug\Server2.exe
+D:\__Project\NetStudy\Server2\Server2\obj\Debug\Server2.pdb

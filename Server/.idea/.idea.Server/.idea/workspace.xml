@@ -8,9 +8,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03b59717-9f1e-48d7-952f-d59648a5bdfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/Assets/Scripts/06 客户端框架/Test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client1/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Client1/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Server.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Server.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Server.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/ref/Server.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Server.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Server.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Server.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Server.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +44,12 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/obj/Debug/net6.0/Server.GlobalUsings.g.cs" />
       <option value="$PROJECT_DIR$/ByteArray.cs" />
       <option value="$PROJECT_DIR$/Server.cs" />
+      <option value="$PROJECT_DIR$/Script/Net/MsgBase.cs" />
+      <option value="$PROJECT_DIR$/Script/Proto/BattleMsg.cs" />
+      <option value="$PROJECT_DIR$/obj/Debug/net6.0/Server.GlobalUsings.g.cs" />
+      <option value="$PROJECT_DIR$/global.json" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2ELPd5o5X1qsFifYLvbJ7SwKl99" />
@@ -82,6 +104,9 @@
       <workItem from="1662719642754" duration="1065000" />
       <workItem from="1663065564440" duration="1602000" />
       <workItem from="1663132577315" duration="724000" />
+      <workItem from="1663219712043" duration="2123000" />
+      <workItem from="1663232050241" duration="76000" />
+      <workItem from="1663232158470" duration="14000" />
     </task>
     <servers />
   </component>

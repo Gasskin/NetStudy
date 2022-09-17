@@ -7,9 +7,9 @@ D:\__Project\NetStudy\Server\bin\Debug\net6.0\Server.exe
 D:\__Project\NetStudy\Server\bin\Debug\net6.0\Server.deps.json
 D:\__Project\NetStudy\Server\bin\Debug\net6.0\Server.runtimeconfig.json
 D:\__Project\NetStudy\Server\bin\Debug\net6.0\Server.dll
-D:\__Project\NetStudy\Server\bin\Debug\net6.0\ref\Server.dll
 D:\__Project\NetStudy\Server\bin\Debug\net6.0\Server.pdb
 D:\__Project\NetStudy\Server\obj\Debug\net6.0\Server.dll
 D:\__Project\NetStudy\Server\obj\Debug\net6.0\ref\Server.dll
 D:\__Project\NetStudy\Server\obj\Debug\net6.0\Server.pdb
 D:\__Project\NetStudy\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache
+D:\__Project\NetStudy\Server\obj\Debug\net6.0\refint\Server.dll
