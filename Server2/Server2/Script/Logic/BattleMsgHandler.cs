@@ -1,7 +1,19 @@
-﻿namespace Framework
+﻿using System;
+
+namespace Framework
 {
-    public class BattleMsgHandler
+    public partial class  MsgHandler
     {
+        public static void MsgMove(ClientState c, MsgBase msgBase)
+        {
+            var msg = msgBase as MsgMove;
+            msg.x++;
+            NetManager.Send(c, msg);
+        }
         
+        public static void MsgPing(ClientState c, MsgBase msgBase)
+        {
+            Console.WriteLine("MsgPing");
+        }
     }
 }

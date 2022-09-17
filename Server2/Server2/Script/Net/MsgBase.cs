@@ -32,7 +32,7 @@ namespace Framework
         public static MsgBase Decode(string protoName, byte[] bytes, int offset, int count)
         {
             var str = System.Text.Encoding.UTF8.GetString(bytes, offset, count);
-            return (MsgBase) serializer.Deserialize(str, Type.GetType($"Framework.{protoName},Assembly-CSharp") ?? throw new InvalidOperationException());
+            return (MsgBase) serializer.Deserialize(str, Type.GetType($"Framework.{protoName}") ?? throw new InvalidOperationException());
         }
         
         /// <summary>

@@ -1,6 +1,6 @@
 ﻿namespace Framework
 {
-    public class SysMsgHandler
+    public partial class SysMsgHandler
     {
         
     }

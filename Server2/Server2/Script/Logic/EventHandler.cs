@@ -1,7 +1,16 @@
-﻿namespace Framework
+﻿using System;
+
+namespace Framework
 {
-    public class EventHandler
+    public partial class MsgHandler
     {
-        
+        public static void OnDisconnect(ClientState c)
+        {
+            Console.WriteLine("Event Close");
+        }
+
+        public static void OnTimer()
+        {
+        }
     }
 }

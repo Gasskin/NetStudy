@@ -147,7 +147,7 @@ namespace Framework
         public static void Close(ClientState state)
         {
             // 事件分发
-            MethodInfo method = typeof(EventHandler).GetMethod("OnDisconnect");
+            MethodInfo method = typeof(MsgHandler).GetMethod("OnDisconnect");
             object[] ob = {state};
             method.Invoke(null, ob);
             // 关闭
@@ -191,7 +191,7 @@ namespace Framework
             readBuffer.CheckAndMoveBytes();
             
             // 分发消息
-            MethodInfo method = typeof(SysMsgHandler).GetMethod(protoName);
+            MethodInfo method = typeof(MsgHandler).GetMethod(protoName);
             object[] o = {state, msgBase};
             Console.WriteLine("[Receive]" + protoName);
             if (method != null)
@@ -213,6 +213,46 @@ namespace Framework
             MethodInfo mei = typeof(EventHandler).GetMethod("OnTimer");
             object[] ob = {};
             mei.Invoke(null, ob);
+        }
+        
+        /// <summary>
+        /// 发送数据
+        /// </summary>
+        /// <param name="cs"></param>
+        /// <param name="msg"></param>
+        public static void Send(ClientState cs, MsgBase msg)
+        {
+            // 状态判断
+            if (cs == null)
+                return;
+            if (!cs.socket.Connected)
+                return;
+
+            // 数据编码
+            byte[] nameBytes = MsgBase.EncodeName(msg);
+            byte[] bodyBytes = MsgBase.Encode(msg);
+            int len = nameBytes.Length + bodyBytes.Length;
+            byte[] sendBytes = new byte[2 + len];
+            
+            // 组装长度
+            sendBytes[0] = (byte) (len % 256);
+            sendBytes[1] = (byte) (len / 256);
+            
+            // 组装名字
+            Array.Copy(nameBytes, 0, sendBytes, 2, nameBytes.Length);
+            
+            // 组装消息体
+            Array.Copy(bodyBytes, 0, sendBytes, 2 + nameBytes.Length, bodyBytes.Length);
+            
+            // 为简化代码，不设置回调
+            try
+            {
+                cs.socket.BeginSend(sendBytes, 0, sendBytes.Length, 0, null, null);
+            }
+            catch (SocketException ex)
+            {
+                Console.WriteLine("Socket Close on BeginSend" + ex.ToString());
+            }
         }
     }
 }
