@@ -9,13 +9,15 @@ namespace Framework
     public static class NetManager
     {
         // 监听Socket
-        private static Socket listenfd;
+        public static Socket listenfd;
 
         // 客户端Socket及状态信息
-        private static Dictionary<Socket, ClientState> clients = new Dictionary<Socket, ClientState>();
+        public static Dictionary<Socket, ClientState> clients = new Dictionary<Socket, ClientState>();
 
         // Select的检查列表
-        private static List<Socket> checkRead = new List<Socket>();
+        public static List<Socket> checkRead = new List<Socket>();
+
+        public static long pingInterval = 30;
 
         /// <summary>
         /// 开启服务器
@@ -56,6 +58,7 @@ namespace Framework
                 }
 
                 // 超时处理
+                Timer();
             }
         }
 
@@ -80,7 +83,7 @@ namespace Framework
             {
                 Socket clientfd = listenfd.Accept();
                 Console.WriteLine($"[客户端已连接]{clientfd.RemoteEndPoint}");
-                ClientState state = new ClientState {socket = clientfd};
+                ClientState state = new ClientState {socket = clientfd,lastPingTime = GetTimeStamp()};
                 clients.Add(clientfd, state);
             }
             catch (SocketException ex)
@@ -210,7 +213,7 @@ namespace Framework
         public static void Timer()
         {
             // 消息分发
-            MethodInfo mei = typeof(EventHandler).GetMethod("OnTimer");
+            MethodInfo mei = typeof(MsgHandler).GetMethod("OnTimer");
             object[] ob = {};
             mei.Invoke(null, ob);
         }
@@ -253,6 +256,16 @@ namespace Framework
             {
                 Console.WriteLine("Socket Close on BeginSend" + ex.ToString());
             }
+        }
+        
+        /// <summary>
+        /// 获取时间戳
+        /// </summary>
+        /// <returns></returns>
+        public static long GetTimeStamp() 
+        {
+            TimeSpan ts = DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, 0);
+            return Convert.ToInt64(ts.TotalSeconds);
         }
     }
 }

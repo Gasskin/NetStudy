@@ -10,10 +10,5 @@ namespace Framework
             msg.x++;
             NetManager.Send(c, msg);
         }
-        
-        public static void MsgPing(ClientState c, MsgBase msgBase)
-        {
-            Console.WriteLine("MsgPing");
-        }
     }
 }

@@ -5,3 +5,17 @@ D:\__Project\NetStudy\Server2\Server2\obj\Debug\Server2.csproj.SuggestedBindingR
 D:\__Project\NetStudy\Server2\Server2\obj\Debug\Server2.csproj.CoreCompileInputs.cache
 D:\__Project\NetStudy\Server2\Server2\obj\Debug\Server2.exe
 D:\__Project\NetStudy\Server2\Server2\obj\Debug\Server2.pdb
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\Server2.exe.config
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\MySql.Data.dll
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\Google.Protobuf.dll
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\ZstdNet.dll
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\BouncyCastle.Crypto.dll
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\Ubiety.Dns.Core.dll
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\System.Memory.dll
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\System.Buffers.dll
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\K4os.Compression.LZ4.dll
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\K4os.Hash.xxHash.dll
+D:\__Project\NetStudy\Server2\Server2\bin\Debug\MySql.Data.xml
+D:\__Project\NetStudy\Server2\Server2\obj\Debug\Server2.exe.config
+D:\__Project\NetStudy\Server2\Server2\obj\Debug\Server2.csproj.CopyComplete

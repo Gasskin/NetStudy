@@ -32,6 +32,9 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="MySql.Data, Version=8.0.30.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
+          <HintPath>C:\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.8\MySql.Data.dll</HintPath>
+        </Reference>
         <Reference Include="System" />
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
@@ -43,10 +46,13 @@
         <Compile Include="Script\Logic\BattleMsgHandler.cs" />
         <Compile Include="Script\Logic\EventHandler.cs" />
         <Compile Include="Script\Logic\SysMsgHandler.cs" />
+        <Compile Include="Script\MySql\DbManager.cs" />
         <Compile Include="Script\Net\ByteArray.cs" />
         <Compile Include="Script\Net\ClientState.cs" />
         <Compile Include="Script\Net\MsgBase.cs" />
         <Compile Include="Script\Net\NetManager.cs" />
+        <Compile Include="Script\Net\Player\Player.cs" />
+        <Compile Include="Script\Net\Player\PlayerManager.cs" />
         <Compile Include="Script\Proto\BattleMsg.cs" />
         <Compile Include="Script\Proto\SysMsg.cs" />
         <Compile Include="Script\Test\ClientState.cs" />

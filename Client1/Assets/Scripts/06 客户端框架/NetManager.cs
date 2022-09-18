@@ -35,7 +35,7 @@ namespace Framework
         // 是否启用心跳
         public static bool isUsePing = true;
         // 心跳间隔时间
-        public static int pingInterval = 3;
+        public static int pingInterval = 30;
         // 上一次发送PING的时间
         static float lastPingTime = 0;
         // 上一次收到PONG的时间
