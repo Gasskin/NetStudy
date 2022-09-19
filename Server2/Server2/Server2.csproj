@@ -46,7 +46,10 @@
         <Compile Include="Script\Logic\BattleMsgHandler.cs" />
         <Compile Include="Script\Logic\EventHandler.cs" />
         <Compile Include="Script\Logic\SysMsgHandler.cs" />
+        <Compile Include="Script\Logic\NotePadMsgHandler.cs" />
         <Compile Include="Script\MySql\DbManager.cs" />
+        <Compile Include="Script\MySql\NotePad.cs" />
+        <Compile Include="Script\MySql\RegisterAndLogin.cs" />
         <Compile Include="Script\Net\ByteArray.cs" />
         <Compile Include="Script\Net\ClientState.cs" />
         <Compile Include="Script\Net\MsgBase.cs" />
@@ -55,6 +58,7 @@
         <Compile Include="Script\Net\Player\PlayerManager.cs" />
         <Compile Include="Script\Proto\BattleMsg.cs" />
         <Compile Include="Script\Proto\SysMsg.cs" />
+        <Compile Include="Script\Proto\NotePadMsg.cs" />
         <Compile Include="Script\Test\ClientState.cs" />
         <Compile Include="Script\Test\Main.cs" />
         <Compile Include="Script\Test\Server.cs" />

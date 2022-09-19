@@ -27,12 +27,12 @@ namespace Framework
             try
             {
                 mysql.Open();
-                Console.WriteLine("[数据库]connect success");
+                Console.WriteLine("[数据库]连接成功");
                 return true;
             }
             catch (Exception e)
             {
-                Console.WriteLine("[数据库]connect fail, " + e.Message);
+                Console.WriteLine("[数据库]连接失败：, " + e.Message);
                 return false;
             }
         }
@@ -46,79 +46,5 @@ namespace Framework
         {
             return !Regex.IsMatch(str, @"[-|;|,|\/|\(|\)|\[|\]|\}|\{|%|@|\*|!|\']");
         }
-
-        /// <summary>
-        /// 账号是否存在
-        /// </summary>
-        /// <param name="id">张海ID</param>
-        /// <returns></returns>
-        public static bool IsAccountExist(string id)
-        {
-            // 防SQL注入
-            if (!IsSafeString(id))
-                return false;
-
-            // SQL语句
-            string s = $"select * from account where account = '{id}';";
-            
-            // 查询
-            try
-            {
-                var cmd = new MySqlCommand(s, mysql);
-                var dataReader = cmd.ExecuteReader();
-                var hasRows = dataReader.HasRows;
-                dataReader.Close();
-                return !hasRows;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("[数据库]IsSafeString err, " + e.Message);
-                return false;
-            }
-        }
-
-        /// <summary>
-        /// 注册账号
-        /// </summary>
-        /// <param name="account"></param>
-        /// <param name="pw"></param>
-        /// <returns></returns>
-        public static bool Register(string account, string pw)
-        {
-            // 防SQL注入
-            if (!IsSafeString(account))
-            {
-                Console.WriteLine("[数据库]Register fail, id not safe");
-                return false;
-            }
-
-            if (!IsSafeString(pw))
-            {
-                Console.WriteLine("[数据库]Register fail, pw not safe");
-                return false;
-            }
-
-            // 能否注册
-            if (!IsAccountExist(account))
-            {
-                Console.WriteLine("[数据库]Register fail, id exist");
-                return false;
-            }
-
-            // 写入数据库User表
-            string sql = $"insert into account set account= '{account}',password= '{pw}'";
-            try
-            {
-                MySqlCommand cmd = new MySqlCommand(sql, mysql);
-                cmd.ExecuteNonQuery();
-                return true;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("[数据库] Register fail " + e.Message);
-                return false;
-            }
-        }
-
     }
 }

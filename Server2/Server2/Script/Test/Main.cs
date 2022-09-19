@@ -17,10 +17,9 @@ namespace Server
 
         static void Main(string[] args)
         {
-            // NetManager.StartLoop(IP, HOST);
             if (DbManager.Connect(DB, DB_IP, DB_PORT, DB_USER, DB_PW))
             {
-                DbManager.Register("415753928", "415753");
+                NetManager.StartLoop(IP, HOST);
             }
         }
     }
